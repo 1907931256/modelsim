@@ -1,4 +1,38 @@
-timescale 1 ns/1 ps
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____
+//  /   /\/   /
+// /___/  \  /    Vendor: Xilinx
+// \   \   \/     Version: K.27
+//  \   \         Application: netgen
+//  /   /         Filename: pci_lc_i.v
+// /___/   /\     Timestamp: Fri Nov 16 15:59:07 2007
+// \   \  /  \ 
+//  \___\/\___\
+//             
+// Command	: -ofmt verilog -w pci_lc_i.ngd 
+// Device	: v300bg432
+// Source file	: pci_lc_i.ngd
+// Result file	: pci_lc_i.v
+// # of Modules	: 1
+// Design Name	: PCI_LC_I
+// Xilinx        : /build/xfndry/K.27/rtf
+//             
+// Purpose:    
+//     This verilog netlist is a verification model and uses simulation 
+//     primitives which may not represent the true implementation of the 
+//     device, however the netlist is functionally correct and should not 
+//     be modified. This file cannot be synthesized and should only be used 
+//     with supported simulation tools.
+//             
+// Reference:  
+//     Development System Reference Guide, Chapter 23 and Synthesis and Simulation Design Guide, Chapter 6
+//             
+////////////////////////////////////////////////////////////////////////////////
+
+`timescale 1 ns/1 ps
+
 module PCI_LC_I (
   OE_DEVSEL, BASE_HIT0, BASE_HIT1, BASE_HIT2, BASE_HIT3, BASE_HIT4, BASE_HIT5, BASE_HIT6, BASE_HIT7, S_DATA_VLD, OE_REQ, OE_CBE, OE_ADO_LT64, OE_IRDY
 , REQUEST64, SLOT64, IRDY_I, IRDY_O, AD10, AD11, AD12, AD13, AD14, AD15, AD16, AD0, AD17, AD20, AD1, AD18, AD21, AD2, AD19, AD22, AD3, AD23, AD4, AD24

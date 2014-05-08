@@ -11,7 +11,7 @@
 ./dumb_arbiter.v
 ./dumb_targ32.v
 ./stimulus.v
-./ping_tb.v
+./cnc_tb.v
 
 $XILINX/verilog/src/glbl.v
 
